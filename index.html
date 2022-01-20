@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Parcial web</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />	
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+    <section class="inicio-bg d-flex justify-content-center align-items-center">
+        <div class="inicio-form container justify-content-center text-center p-0">
+            <h1>Web<span>Developer</span></h1>
+            <div class="forms m-auto col-lg-7 col-11 col-md-9 col-xl-5 text-center rounded bg-white p-4">
+               <form action="recibido.html" method="get">
+                <p class="py-2">Formulario de afiliación</p>
+                <div class="input-group my-2 px-0 row mx-0 rounded border">
+                  <input type="text" class="form-control col-11" placeholder="Nombre" name="nombre" id="nombre">
+                  <i class="fas fa-user col-1 align-items-center d-flex px-2"></i>
+                </div>
+                <div class="input-group my-2 px-0 row mx-0 rounded border">
+                  <input type="email" class="form-control col-11" placeholder="correo" name="correo" id="correo">
+                  <i class="fas fa-envelope col-1 align-items-center d-flex px-2"></i>
+                </div>
+                <div class="input-group my-2 px-0 row mx-0 rounded border">
+                  <input type="number" class="form-control col-11" placeholder="telefono" name="telefono" id="telefono">
+                  <i class="fas fa-phone col-1 align-items-center d-flex px-2"></i>
+                </div>
+                <div class="input-group my-2 px-0 rounded">
+                  <input type="text" class="form-control col-10 border-left border-top border-bottom" placeholder="" id="in-gustos">
+                  <a class="col-2 btn btn-outline-success rounded-right" id="btn-gustos">Gustos</a>
+                </div>
+                <div class="row p-3 caja-tabla m-0 rounded justify-content-around mt-3 mb-4">
+                  <div class="img-tabla bg-success p-3 col-2 d-flex justify-content-center align-items-center">
+                      <i class="far fa-flag"></i>
+                  </div>
+                  <div class="my-0 col-10 pl-3 pr-0 py-0">
+                    <table class="table table-bordered">
+                       <thead>
+                        <tr>
+                        <th>Gusto</th>
+                        <th>%</th>
+                        <th>editar</th>
+                        </tr>
+                       </thead>
+                      <tbody id="pila-gustos">
+                      </tbody>
+                   </table>
+                </div>
+                </div>
+                <div class="text-left" id="opciones">
+                    <p class="m-0">Pulse Aceptar para guardar los cambios o cancelar para anularlos</p>
+                    <button class="btn btn-outline-secondary m-0" id="btn-aceptar" type="submit">Aceptar</button>
+                    <a class="btn btn-outline-danger m-0" id="btn-cancelar">Cancelar</a>
+                </div>
+                <a href="https://sites.google.com/view/dweb1-uis" target="_blank" class="d-block text-left mt-4">Ir a site de P web</a>
+                </form>
+            </div>
+            </div>
+    </section>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="https://use.fontawesome.com/609ee6ad82.js"></script>
+<script src="./Javascript/form.js"></script>
+</body>
+</html>
